@@ -1,0 +1,26 @@
+html
+  head
+    title= title
+    style
+      include styles.css
+  body
+    div.container
+      row
+        h1= message
+        blockquote
+          h3 User stories:
+          li  I can get the image URLs, alt text and page urls for a set of images relating to a given search string.
+          li I can paginate through the responses by adding a ?offset=2 parameter to the URL.
+          li  I can get a list of the most recently submitted search strings.
+
+        
+
+        h3 Example search for "puppy" ("puppy" + offset 10):
+          p.red-bg https://glacial-stream-43161.herokuapp.com/search/puppy
+          p.red-bg https://glacial-stream-43161.herokuapp.com/search/puppy?offset=10
+
+        <h3>Example search output:
+          p.red-bg [{"url":"http://i.imgur.com/ekEKcXm.jpg","snippet":"Blue-eyed puppy with his brown-eyed stuffy","context":"https://imgur.com/ekEKcXm"},...}]
+
+        <h3>Example history of search term lookup:
+          p.red-bg https://glacial-stream-43161.herokuapp.com/recent

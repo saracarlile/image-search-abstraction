@@ -1,0 +1,19 @@
+{
+  "name": "image-search-abstraction",
+  "version": "1.0.0",
+  "description": "A full stack JavaScript app that allows you to search for images.",
+  "main": "imgur.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "S Carlile",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.7.7",
+    "pug": "^2.0.0-beta7",
+    "request": "^2.79.0"
+  }
+}
