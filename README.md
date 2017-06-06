@@ -11,7 +11,7 @@ User Story: I can paginate through the responses by adding a ?offset=2 parameter
 User Story: I can get a list of the most recently submitted search strings.
 
 ## View Project
-[View live demo of Image Search Abstraction](https://glacial-stream-43161.herokuapp.com/)
+[View live demo of Image Search Abstraction](https://boiling-citadel-49042.herokuapp.com/)
 
 
 ## Installation
